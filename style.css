@@ -1,0 +1,41 @@
+
+header {
+    background: lightyellow;
+    text-align: center;
+}
+
+nav {
+	background: limegreen;
+	text-align: center;
+
+}
+
+nav span:not(:last-child):after {
+    content: " - ";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+	background: orange;
+}
+
+article {
+	background: orange;
+}
+
+
+span.amarillo{
+	width: 190px;
+	display: block;
+	background-color: yellow;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: blue;
+	
+}
